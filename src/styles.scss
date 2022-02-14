@@ -1,1 +1,143 @@
-/* You can add global styles to this file, and also import other style files */
+.content{
+  width: 90%;
+  margin: auto;
+  max-width:650px ;
+}
+.bg{
+  background-color:#c4e41a;
+}
+.fc{
+  color: #527f21;
+
+}
+.cont{
+  margin: 20px 0 0;
+  table{
+    width: 95%;
+    margin: auto;
+    th{
+      padding: 5px;
+      background: #e4edb2;
+      border: 1px solid #c4e41a;
+      span{
+        background: #f00;
+        color: #fff;
+        font-size: 12px;
+
+        padding: 3px;
+      }
+    }
+    td{
+      padding: 5px;
+      border: 1px solid #c4e41a;
+    }
+  }
+  p{
+    width: 100%;
+    padding: 10px;
+
+    height: 100px;
+    border: 1px solid gray;
+    overflow-y: scroll;
+  }
+  h1{
+  border-bottom:1px solid  #385617;;
+  color: #385617;
+  font-size: 18px;
+  padding-bottom: 3px;
+  }
+  h2{
+    border-bottom:1px solid  #385617;;
+    color: #385617;
+    font-size: 16px;
+    padding-bottom: 3px;
+  }
+  div
+  {
+    font-size: 13px;
+    span{
+      color: orange;
+    }
+  }
+}
+
+.bg2{
+  background-color:#f0f8c5;
+}
+.borderb{
+  border-bottom: 2px solid #d1dcca;
+}
+.borderb2{
+  border: 2px solid #e0e690;
+}
+nav{
+  display: flex;
+  width: 100%;
+  align-items: center;
+
+  div{
+    position: relative;
+    align-items: center;
+    height: 18px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #385617;
+    padding:3px 10px 4px;
+    vertical-align: middle;
+    width: 40%;
+    background-color:#fff;
+    border: 2px solid #c4e41a;
+    .arrow{
+    display: block;
+    position: absolute;
+    top: -3px;
+    right: -32px;
+    transform: rotate(
+90deg
+);
+    width: 0px;
+    border-color: #c4e41a;
+    border-style: solid;
+    border-width: 15px;
+    border-left-color: transparent;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    z-index: 3;
+
+    }
+
+    &.active{
+      width: 60%;
+      background-color:#c4e41a;
+
+    }
+    &.finish{
+      width: 100%;
+    }
+  }
+}
+.name{
+  font-size: 20px;
+  margin: 20px;
+  font-weight: bold;
+  span{
+    font-size: 16px;
+  }
+}
+.btn_area{
+  margin-top: 40px;
+  padding-bottom: 50px;
+  text-align: center;
+  a{
+    display: inline-block;
+    width: 250px;
+    height: 40px;
+    line-height: 40px;
+    background-color:#c4e41a;
+    color: #000;
+    font-weight: bold;
+    text-decoration:none;
+
+  }
+}
