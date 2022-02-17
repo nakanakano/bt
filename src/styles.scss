@@ -13,18 +13,21 @@
 .cont{
   margin: 20px 0 0;
   table{
-    width: 95%;
+    width: 100%;
     margin: auto;
     th{
+      font-size: 12px;
       padding: 5px;
       background: #e4edb2;
+      width: 30%;
       border: 1px solid #c4e41a;
       span{
+
         background: #f00;
         color: #fff;
-        font-size: 12px;
+        font-size: 10px;
 
-        padding: 3px;
+        padding: 2px;
       }
     }
     td{
@@ -140,4 +143,10 @@ nav{
     text-decoration:none;
 
   }
+}
+.dont_text{
+  font-size: 19px !important;
+  font-weight: bold;
+  text-align: center
+
 }
